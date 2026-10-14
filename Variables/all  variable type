@@ -1,0 +1,25 @@
+Example
+String name = "John";
+System.out.println(name);
+
+
+
+Example
+int myNum;
+myNum = 15;
+System.out.println(myNum);
+
+
+Example
+Change the value of myNum from 15 to 20:
+
+int myNum = 15;
+myNum = 20;  // myNum is now 20
+System.out.println(myNum);
+
+Example
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
