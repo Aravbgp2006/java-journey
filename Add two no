@@ -9,3 +9,20 @@ class Main {
         System.out.println("Sum = " + sum);
     }
 }
+
+
+
+
+
+public class Calculator {
+    public static void main(String[] args) {
+        int number1 = 10;
+        int number2 = 20;
+        
+        // Add the two variables together
+        int sum = number1 + number2;
+        
+        // Output the result
+        System.out.println("The total is: " + sum);
+    }
+}
