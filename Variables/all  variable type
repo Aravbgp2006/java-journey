@@ -45,3 +45,21 @@ class Student {
         s.display();
     }
 }
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        a = a + 5;
+        b = b * 2;
+
+        int sum = a + b;
+
+        System.out.println(sum);
+    }
+}
+
