@@ -82,3 +82,22 @@ class Main {
     }
 }
 
+
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 4;
+
+        double result1 = a / b;
+        double result2 = (double) a / b;
+
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+}
+
