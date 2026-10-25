@@ -111,6 +111,27 @@ class Main {
         System.out.println(a++);
         System.out.println(++a);
         System.out.println(a);
+
+
+
+
+
+
+        
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+
+        a += 5;
+        a *= 2;
+        a -= 4;
+        a /= 2;
+        a %= 6;
+
+        System.out.println(a);
+    }
+}
+        
     }
 }
 
