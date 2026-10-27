@@ -154,3 +154,28 @@ class Main {
         System.out.println("result = " + result);
     }
 }
+
+
+
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 4;
+        int c = 2;
+
+        int result = a + b * c;
+        a += 3;
+        b--;
+        result = result + a - b;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("result = " + result);
+    }
+}
+
