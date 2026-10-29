@@ -190,3 +190,24 @@ String myText = "Hello";     // String
 
 
 
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 17;
+        int b = 5;
+
+        int temp = a;
+        a = b;
+        b = temp;
+
+        a += 3;
+        b %= a;
+        b *= 2;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
+
