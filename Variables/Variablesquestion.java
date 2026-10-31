@@ -228,3 +228,30 @@ class Main {
         System.out.println("d = " + d);
     }
 }
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+
+        int english = 80;
+        int maths = 90;
+        int physics = 75;
+        int chemistry = 85;
+        int computer = 95;
+
+        int total = english + maths + physics
+                    + chemistry + computer;
+
+        double percentage = (total / 500.0) * 100;
+
+        double average = total / 5.0;
+
+        System.out.println("Total Marks = " + total);
+        System.out.println("Percentage = " + percentage + "%");
+        System.out.println("Average = " + average);
+    }
+}
+
