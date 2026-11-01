@@ -255,3 +255,19 @@ class Main {
     }
 }
 
+
+
+
+class Main {
+    public static void main(String[] args) {
+
+        int number = 47;
+
+        int lastDigit = number % 10;
+        int firstDigit = number / 10;
+
+        int reverse = lastDigit * 10 + firstDigit;
+
+        System.out.println("Reverse = " + reverse);
+    }
+}
