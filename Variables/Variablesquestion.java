@@ -271,3 +271,24 @@ class Main {
         System.out.println("Reverse = " + reverse);
     }
 }
+
+
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+
+        int number = 5839;
+
+        int lastDigit = number % 10;
+        int secondLastDigit = (number / 10) % 10;
+
+        int sum = lastDigit + secondLastDigit;
+
+        System.out.println("Sum = " + sum);
+    }
+}
+
