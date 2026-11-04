@@ -319,3 +319,23 @@ class Main {
         System.out.println("result = " + result);
     }
 }
+
+
+
+5public class Main {
+    public static void main(String[] args) {
+
+        int p1 = 250;
+        int p2 = 150;
+        int p3 = 100;
+
+        int total = p1 + p2 + p3;
+        int discount = 50;
+
+        int finalBill = total - discount;
+
+        System.out.println("Total Bill: " + total);
+        System.out.println("Discount: " + discount);
+        System.out.println("Final Bill: " + finalBill);
+    }
+}
