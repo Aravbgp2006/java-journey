@@ -337,5 +337,29 @@ class Main {
         System.out.println("Total Bill: " + total);
         System.out.println("Discount: " + discount);
         System.out.println("Final Bill: " + finalBill);
+
+
+
+
+
+        public class Main {
+    public static void main(String[] args) {
+
+        int java = 85;
+        int c = 75;
+        int maths = 90;
+        int english = 80;
+        int computer = 70;
+
+        int total = java + c + maths + english + computer;
+
+        double percentage = (total / 500.0) * 100;
+        double average = total / 5.0;
+
+        System.out.println("Total Marks: " + total);
+        System.out.println("Percentage: " + percentage + "%");
+        System.out.println("Average: " + average);
+    }
+        }
     }
 }
