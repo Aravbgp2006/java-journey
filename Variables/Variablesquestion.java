@@ -363,3 +363,19 @@ class Main {
         }
     }
 }
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int money = 1275;
+
+        int notes = money / 100;
+        int remaining = money % 100;
+
+        System.out.println("100 Rupee Notes: " + notes);
+        System.out.println("Remaining Money: " + remaining);
+    }
+}
