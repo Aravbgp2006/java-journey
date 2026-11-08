@@ -379,3 +379,24 @@ public class Main {
         System.out.println("Remaining Money: " + remaining);
     }
 }
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 5;
+
+        int x = ++a;
+        int y = b++;
+
+        a += y;
+        b += x;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(x);
+        System.out.println(y);
+    }
+}
