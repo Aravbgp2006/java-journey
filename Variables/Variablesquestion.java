@@ -400,3 +400,27 @@ public class Main {
         System.out.println(y);
     }
 }
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 25;
+        int b = 10;
+
+        int temp = a;
+        a = b;
+        b = temp;
+
+        a = a + 5;
+        b = b - 3;
+
+        int x = a / 4;
+        int y = b % 6;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(x);
+        System.out.println(y);
+    }
+}
