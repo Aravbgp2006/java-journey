@@ -459,3 +459,29 @@ for (int i = 0; i < cars.length; i++) {
 }
 
 
+
+
+
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        double basicSalary = 25000;
+
+        double hra = basicSalary * 20 / 100;
+        double da = basicSalary * 10 / 100;
+        double pf = basicSalary * 5 / 100;
+
+        double finalSalary = basicSalary + hra + da - pf;
+
+        System.out.println("Basic Salary: " + basicSalary);
+        System.out.println("HRA: " + hra);
+        System.out.println("DA: " + da);
+        System.out.println("PF: " + pf);
+        System.out.println("Final Salary: " + finalSalary);
+    }
+}
