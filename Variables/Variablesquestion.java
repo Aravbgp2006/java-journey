@@ -485,3 +485,28 @@ public class Main {
         System.out.println("Final Salary: " + finalSalary);
     }
 }
+
+
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        double price = 2000;
+
+        double discount = price * 10 / 100;
+        double discountedPrice = price - discount;
+
+        double gst = discountedPrice * 18 / 100;
+        double finalBill = discountedPrice + gst;
+
+        System.out.println("Original Price: " + price);
+        System.out.println("Discount: " + discount);
+        System.out.println("After Discount: " + discountedPrice);
+        System.out.println("GST: " + gst);
+        System.out.println("Final Bill: " + finalBill);
+    }
+}
