@@ -510,3 +510,25 @@ public class Main {
         System.out.println("Final Bill: " + finalBill);
     }
 }
+
+
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        double principal = 10000;
+        double rate = 5;
+        double time = 2;
+
+        double interest = (principal * rate * time) / 100;
+        double totalAmount = principal + interest;
+
+        System.out.println("Principal: " + principal);
+        System.out.println("Interest: " + interest);
+        System.out.println("Total Amount: " + totalAmount);
+    }
+}
