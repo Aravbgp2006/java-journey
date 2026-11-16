@@ -1,4 +1,4 @@
-package Variables;
+yepackage Variables;
 
 public class Variablesquestion {
 
@@ -530,5 +530,27 @@ public class Main {
         System.out.println("Principal: " + principal);
         System.out.println("Interest: " + interest);
         System.out.println("Total Amount: " + totalAmount);
+    }
+}
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        double principal = 10000;
+        double rate = 10;
+        double time = 2;
+
+        double amount = principal *
+                Math.pow(1 + rate / 100, time);
+
+        double compoundInterest = amount - principal;
+
+        System.out.println("Principal: " + principal);
+        System.out.println("Final Amount: " + amount);
+        System.out.println("Compound Interest: " + compoundInterest);
     }
 }
