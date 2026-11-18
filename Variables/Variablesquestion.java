@@ -566,3 +566,14 @@ a = a - b;
 
 System.out.println(a);
 System.out.println(b);
+
+
+
+
+
+
+int age = 21;
+double price = 99.50;
+char grade = 'A';
+String name = "Rahul";
+boolean isStudent = true;
