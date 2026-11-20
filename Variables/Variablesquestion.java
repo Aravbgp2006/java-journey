@@ -592,3 +592,17 @@ public class Main {
         System.out.println(b);
     }
 }
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        double a = 99.99;
+        int b = (int) a;
+
+        System.out.println(b);
+    }
+}
