@@ -606,3 +606,15 @@ public class Main {
         System.out.println(b);
     }
 }
+
+
+
+
+
+
+byte a = 10;
+byte b = 20;
+
+int result = a + b;
+
+System.out.println(result);
