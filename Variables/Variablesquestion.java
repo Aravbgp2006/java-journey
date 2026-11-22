@@ -618,3 +618,17 @@ byte b = 20;
 int result = a + b;
 
 System.out.println(result);
+
+
+
+
+
+
+
+
+
+int age = 21;
+double price = 99.50;
+char grade = 'A';
+String name = "Rahul";
+boolean isStudent = true;
