@@ -632,3 +632,18 @@ double price = 99.50;
 char grade = 'A';
 String name = "Rahul";
 boolean isStudent = true;
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        String name = "Arav";
+        String city = "Jaipur";
+
+        System.out.println(name);
+        System.out.println(city);
+    }
+}
