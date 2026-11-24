@@ -647,3 +647,17 @@ public class Main {
         System.out.println(city);
     }
 }
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        String name = "Arav Raj";
+
+        System.out.println(name.contains("Arav"));
+        System.out.println(name.contains("Singh"));
+    }
+}
