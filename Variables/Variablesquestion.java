@@ -661,3 +661,18 @@ public class Main {
         System.out.println(name.contains("Singh"));
     }
 }
+
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        String a = "Java";
+        String b = "Java";
+
+        System.out.println(a == b);
+    }
+}
